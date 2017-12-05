@@ -1,0 +1,37 @@
+{
+  "name": "hangzhou",
+  "version": "0.0.1",
+  "description": "装修",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodbuildwhc/hangzhouxiaochengxun.git"
+  },
+  "author": "wanghuacong",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.15.3",
+    "knex": "^0.11.10",
+    "lodash": "^4.15.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-promises": "^0.4.1",
+    "jasmine-spec-reporter": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/goodbuildwhc/hangzhouxiaochengxun/issues"
+  },
+  "homepage": "https://github.com/goodbuildwhc/hangzhouxiaochengxun#readme"
+}
