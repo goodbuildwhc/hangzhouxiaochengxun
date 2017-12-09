@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/tools/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home-HL.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "iconPath": "image/news.png",
+      "selectedIconPath": "image/news-HL.png",
+      "pagePath": "pages/index/index",
+      "text": "头条"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "工具"
+    }, {
+      "iconPath": "image/我的.png",
+      "selectedIconPath": "image/news-HL.png",
+      "pagePath": "pages/index/index",
+      "text": "我的"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

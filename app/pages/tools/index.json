@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "管理工具集",
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "../index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "../index/index",
+        "text": "头条"
+      },
+      {
+        "pagePath": "../index/index",
+        "text": "我的"
+      }
+    ]
+  }
+}
