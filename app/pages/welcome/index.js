@@ -10,10 +10,14 @@ Page({
     })
   },
 
-  onReady: function () {
-    wx.redirectTo({
-      url: '../index/index'
-    })
-  }
+  imageLoad: function () {
+    setTimeout(this.goIndex, 3000);
+  },
+
+  goIndex: () => {
+    wx.navigateTo({
+      url: '../logs/logs'
+    });
+  },
 
 }) 
