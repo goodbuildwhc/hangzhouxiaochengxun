@@ -9,7 +9,8 @@
 	"compileType": "weapp",
 	"libVersion": "1.6.0",
 	"appid": "touristappid",
-	"projectname": "hangzhou",
+	"projectname": "hangzhougit",
+	"miniprogramRoot": "./",
 	"condition": {
 		"weapp": {
 			"current": -1,
